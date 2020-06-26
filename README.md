@@ -1,0 +1,1 @@
+This project is a clone of the google homepage. It is to demonstrate an understanding in HTML and CSS.
