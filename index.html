@@ -5,15 +5,26 @@
         <link rel="stylesheet" type="text/css" href="googlestyle.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href='https://css.gg/menu-grid-r.css' rel='stylesheet'>
     </head>
     <body>
         <header>
-            <nav>
-                <ul>
-                    <li>About</li>
-                    <li>Store</li>
-                </ul>
-            </nav>
+            <div class="navbar">
+                <div class="top-left">
+                    <ul>
+                        <li><a class="top-links" href="#">About</a></li>
+                        <li><a class="top-links" href="#">Store</a></li>
+                    </ul>
+                </div>
+                <div class="top-right">
+                    <ul>
+                        <li><a class="top-links" href="#">Gmail</a></li>
+                        <li><a class="top-links" href="#">Images</a></li>
+                        <li><a class="top-links" href="#"><i id="grid" class="gg-menu-grid-r"></i></a></li>
+                        <li><button class="sign-in" type="submit">Sign In</li>
+                    </ul>
+                </div>
+            </div>
         </header>
         <main>
             <div class="content">
@@ -29,7 +40,29 @@
             </div>
         </main>
         <footer>
-
+            <div class="bottom-nav">
+                <div class="foot-content1">
+                    <ul>
+                        <li>Canada</li>
+                    </ul>
+                </div>
+                <div class="foot-content2">
+                    <div class="bottom-left">
+                        <ul>
+                            <li><a class="bottom-links" href="#">Advertising</a></li>
+                            <li><a class="bottom-links" href="#">Business</a></li>
+                            <li><a class="bottom-links" href="#">How Search Works</a></li>
+                        </ul>
+                    </div>
+                    <div class="bottom-right">
+                        <ul>
+                            <li><a class="bottom-links" href="#">Privacy</a></li>
+                            <li><a class="bottom-links" href="#">Terms</a></li>
+                            <li><a class="bottom-links" href="#">Settings</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
